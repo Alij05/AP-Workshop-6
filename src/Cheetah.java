@@ -5,4 +5,13 @@ public class Cheetah extends Mammal implements Hunter{
         super(name, age, speed);
         this.property = property;
     }
+
+    public String getProperty() {
+        return property;
+    }
+
+    public void hunt(Prey prey){
+
+    }
+
 }
