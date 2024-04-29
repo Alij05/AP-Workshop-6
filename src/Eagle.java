@@ -5,4 +5,7 @@ public class Eagle extends Bird implements Hunter{
         super(name, age, height);
         this.property = property;
     }
+    public void hunt(Prey prey){
+        System.out.println(super.getName() + " hunt " + prey.getName());
+    }
 }

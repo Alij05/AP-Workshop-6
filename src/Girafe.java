@@ -5,4 +5,6 @@ public class Girafe extends Mammal implements Prey{
         super(name, age, speed);
         this.property = property;
     }
+
+
 }
